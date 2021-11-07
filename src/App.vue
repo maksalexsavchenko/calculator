@@ -5,7 +5,6 @@
     <div class="auth-wrapper">
       <div class="auth-inner">
         <router-view />
-
       </div>
     </div>
 
@@ -18,6 +17,7 @@
   import Nav from './components/Nav'
   // import Calc from './components/calc'
   // import Api from  './components/api'
+  // import Home from './components/Home'
 
 
 export default {
