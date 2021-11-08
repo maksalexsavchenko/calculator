@@ -18,6 +18,7 @@
 
 <script>
     import axios from 'axios'
+
     export default {
         name: "Login",
         data() {
@@ -28,12 +29,12 @@
         },
         methods: {
             async handleSubmit() {
-                const response = await  axios.post('login', {
+                const response = await axios.post('login', {
                     email: this.email,
                     password: this.password
                 });
 
-                console.log(response)
+                localStorage.setItem('token', response.data.token)
             }
         }
     }

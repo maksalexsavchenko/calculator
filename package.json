@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@vue/babel-preset-app": "^4.5.15",
-    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "^3.12.1",
     "babel-loader": "^8.2.3",
     "eslint": "^8.2.0",
@@ -29,7 +29,8 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential"
+      "plugin:vue/essential",
+      "eslint:recommended"
     ],
     "parserOptions": {},
     "rules": {}

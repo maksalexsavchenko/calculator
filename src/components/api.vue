@@ -1,12 +1,6 @@
 <template>
     <div class="api">
         <div class="courses">
-<!--            <ul>-->
-<!--                <li v-for="(course, index) in courses" :key="index">-->
-<!--                    {{ course.ccy }}: Buy {{ course.buy }} <br> Sale {{ course.sale }}-->
-<!--                </li>-->
-<!--            </ul>-->
-
             <table style="width: 100%">
                 <tr>
                     <th>ccy</th>
@@ -44,7 +38,7 @@
 
 <style scoped>
     .courses {
-        width: 400px;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;

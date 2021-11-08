@@ -10,7 +10,7 @@
 
 <script>
     export default {
-        name: "calc",
+        name: "Calc",
         data () {
            return {
                result: '',
@@ -37,7 +37,7 @@
 
     input[type="text"] {
         width: 100%;
-        border: 0;
+        border: 1px solid rgba(36, 56, 73, 0.11);
         color: #243849;
         font-size: 18px;
         padding: 5px 5px;
@@ -48,7 +48,6 @@
         flex-wrap: wrap;
         justify-content: space-around;
         width: 200px;
-        box-shadow: 0 3px 15px grey;
         margin: 100px auto;
 
     }

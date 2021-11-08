@@ -10,6 +10,14 @@
                     <li class="nav-item">
                         <a href="/register" class="nav-link">Sign up</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="/calc" class="nav-link">Calculator</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/api" class="nav-link">PrivatBank Api</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -23,5 +31,7 @@
 </script>
 
 <style scoped>
-
+    .navbar-light {
+        background-color: #ffffff;
+    }
 </style>
